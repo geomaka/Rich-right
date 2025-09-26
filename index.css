@@ -52,11 +52,11 @@
  }
 
  .site-logo {
-  height: auto;
-  width: auto;
-  margin-right: 12px;
-  vertical-align: middle;
-}
+     height: auto;
+     width: auto;
+     margin-right: 12px;
+     vertical-align: middle;
+ }
 
  main {
      padding-top: 120px
@@ -338,181 +338,182 @@
      padding: 22px;
      border-top: 1px solid #eef2f7
  }
+
  /* Reviews Section */
-.reviews-section {
-  padding: 80px 20px;
-  background: #f8f9fa;
-  text-align: center;
-}
+ .reviews-section {
+     padding: 80px 20px;
+     background: #f8f9fa;
+     text-align: center;
+ }
 
-.reviews-section .section-title {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #222;
-}
+ .reviews-section .section-title {
+     font-size: 2rem;
+     font-weight: bold;
+     margin-bottom: 10px;
+     color: #222;
+ }
 
-.reviews-section .section-subtitle {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 40px;
-}
+ .reviews-section .section-subtitle {
+     font-size: 1rem;
+     color: #666;
+     margin-bottom: 40px;
+ }
 
-.reviews-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-}
+ .reviews-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+     gap: 25px;
+ }
 
-.review-card {
-  background: #fff;
-  padding: 25px;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transition: transform 0.3s, box-shadow 0.3s;
-  text-align: left;
-}
+ .review-card {
+     background: #fff;
+     padding: 25px;
+     border-radius: 15px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+     transition: transform 0.3s, box-shadow 0.3s;
+     text-align: left;
+ }
 
-.review-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
-}
+ .review-card:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+ }
 
-.review-text {
-  font-style: italic;
-  margin-bottom: 20px;
-  color: #333;
-  line-height: 1.5;
-}
+ .review-text {
+     font-style: italic;
+     margin-bottom: 20px;
+     color: #333;
+     line-height: 1.5;
+ }
 
-.review-author {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
+ .review-author {
+     display: flex;
+     align-items: center;
+     gap: 15px;
+ }
 
-.review-author img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
+ .review-author img {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+ }
 
-.review-author h4 {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 600;
-}
+ .review-author h4 {
+     margin: 0;
+     font-size: 1rem;
+     font-weight: 600;
+ }
 
-.review-author span {
-  font-size: 0.85rem;
-  color: #777;
-}
+ .review-author span {
+     font-size: 0.85rem;
+     color: #777;
+ }
 
 
-/* Contact Section */
-#contact {
-  background: linear-gradient(135deg, #f7fafc, #eefbf5);
-  padding: 70px 20px;
-  text-align: center;
-}
+ /* Contact Section */
+ #contact {
+     background: linear-gradient(135deg, #f7fafc, #eefbf5);
+     padding: 70px 20px;
+     text-align: center;
+ }
 
-#contact h2 {
-  font-size: 2rem;
-  margin-bottom: 12px;
-  color: #222;
-}
+ #contact h2 {
+     font-size: 2rem;
+     margin-bottom: 12px;
+     color: #222;
+ }
 
-#contact .section-subtitle {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 40px;
-}
+ #contact .section-subtitle {
+     font-size: 1rem;
+     color: #666;
+     margin-bottom: 40px;
+ }
 
-/* Grid */
-.contact-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 28px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
+ /* Grid */
+ .contact-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+     gap: 28px;
+     max-width: 1000px;
+     margin: 0 auto;
+ }
 
-/* Contact details card */
-.contact-card {
-  background: #fff;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
-  text-align: left;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+ /* Contact details card */
+ .contact-card {
+     background: #fff;
+     padding: 30px;
+     border-radius: 16px;
+     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+     text-align: left;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
 
-.contact-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
-}
+ .contact-card:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+ }
 
-.contact-card p {
-  margin: 8px 0;
-  font-size: 1rem;
-  color: #444;
-}
+ .contact-card p {
+     margin: 8px 0;
+     font-size: 1rem;
+     color: #444;
+ }
 
-.contact-card a {
-  color: #25d366;
-  font-weight: 500;
-  text-decoration: none;
-}
+ .contact-card a {
+     color: #25d366;
+     font-weight: 500;
+     text-decoration: none;
+ }
 
-.whatsapp-box {
-  background: #fff;
-  border-radius: 16px;
-  padding: 25px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+ .whatsapp-box {
+     background: #fff;
+     border-radius: 16px;
+     padding: 25px;
+     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
 
-.whatsapp-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
-}
+ .whatsapp-box:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+ }
 
-.whatsapp-box h3 {
-  margin-bottom: 12px;
-  font-size: 1.3rem;
-  color: #111;
-}
+ .whatsapp-box h3 {
+     margin-bottom: 12px;
+     font-size: 1.3rem;
+     color: #111;
+ }
 
-.whatsapp-box textarea {
-  width: 100%;
-  height: 100px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 12px;
-  resize: none;
-  font-family: inherit;
-  font-size: 0.95rem;
-  margin-bottom: 12px;
-}
+ .whatsapp-box textarea {
+     width: 100%;
+     height: 100px;
+     border: 1px solid #ccc;
+     border-radius: 10px;
+     padding: 12px;
+     resize: none;
+     font-family: inherit;
+     font-size: 0.95rem;
+     margin-bottom: 12px;
+ }
 
-.whatsapp-box button {
-  padding: 12px;
-  background: #25d366;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
+ .whatsapp-box button {
+     padding: 12px;
+     background: #25d366;
+     color: #fff;
+     border: none;
+     border-radius: 10px;
+     font-size: 1rem;
+     font-weight: bold;
+     cursor: pointer;
+     transition: background 0.3s ease;
+ }
 
-.whatsapp-box button:hover {
-  background: #1ebc57;
-}
+ .whatsapp-box button:hover {
+     background: #1ebc57;
+ }
 
 
  @media (max-width:900px) {
